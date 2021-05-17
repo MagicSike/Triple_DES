@@ -1,2 +1,3 @@
 # Triple_DES
-CMPE 130 Project
+Project for CMPE 130 Spring 2021  <br />
+Description: Triple DES encryption/decryption with text files <br />
