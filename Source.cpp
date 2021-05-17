@@ -200,9 +200,6 @@ int main(int argc, char *argv[])
 	}
 
 	outFile.close();
-
-	//std::cout << std::endl;
-	//system("PAUSE");
 	return 0;
 }
 
