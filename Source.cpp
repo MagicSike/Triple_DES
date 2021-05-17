@@ -164,7 +164,7 @@ int main(int argc, char *argv[])
 	inputFile.close();
 	
 	// creates a new text file if one does not exist
-	std::ofstream outFile("C:\\Users\\lingi\\Desktop\\Status.txt", std::ios::trunc); // appends text to end of the file
+	std::ofstream outFile("C:\\Users\\lingi\\Desktop\\Status.txt", std::ios::trunc); // if file exists, removes all of its contents
 
 	switch (mode)
 	{
