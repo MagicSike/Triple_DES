@@ -67,13 +67,10 @@ int main(int argc, char *argv[])
 	{
 		std::cout << "USAGE: TripleDES option sourceFileName" << std::endl;
 		std::cout << "   option: -encrypt or -decrypt" << std::endl;
-		//system("PAUSE");
 		return -1;
 	}
 
 	std::string option = toLowerCase(argv[1]);
-	//std::string sourceFileName = argv[2];
-
 	TripleDES mode = ENCRYPT;
 
 	if (option == "-decrypt")
@@ -84,7 +81,6 @@ int main(int argc, char *argv[])
 	{
 		std::cout << "ERROR: Invalid option." << std::endl;
 		std::cout << "   Valid options: -encrypt or -decrypt" << std::endl;
-		//system("PAUSE");
 		return -2;
 	}
 
@@ -111,7 +107,6 @@ int main(int argc, char *argv[])
 	if (!(inputFile.is_open()))
 	{
 		std::cerr << "File cannot be opened." << std::endl;
-		//system("PAUSE");
 		return -1;
 	}
 
